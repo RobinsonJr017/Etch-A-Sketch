@@ -61,3 +61,8 @@ document.querySelector("body").addEventListener("click", (e) => {
       }
     }
   });
+
+function setColorPickerColor() {
+  let colorPicker = document.getElementById("colorPicker");
+  color = colorPicker.value;
+}
